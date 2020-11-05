@@ -45,12 +45,3 @@ df %>%
   group_by(pie) %>% 
   group_modify(~tidy(cor.test(.$SVO, .$offer_num, method = "kendall")))
 
-
-### additional analysis (if needed)not in the paper)
-
-## multinomial regression
-
-reg <- multinom(offer ~ pie + SVO + trust, data = df)
-reg %>%  tidy()
-
-
