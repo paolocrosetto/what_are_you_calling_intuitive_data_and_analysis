@@ -8,8 +8,7 @@ df <- df %>%
          "semester" = Semesterzahl,
          "age" = Alter,
          "female" = Geschlecht,
-         "session" = Session,
-         "trust"  = Trustindex)
+         "session" = Session)
 
 # factors
 df <- df %>% 
