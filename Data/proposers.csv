@@ -1,0 +1,241 @@
+Subject,Profit,Role,endowment,choice,Belief,TimeCQ,CountCQ,SVO,Studium,Semesterzahl,Alter,Geschlecht,Session
+1,12,0,11,1,0,7,0,0.136402604400947,Ernährungswissenschaften,1,22,1,1
+2,18,1,19,3,0,4,0,0.370680540659829,Lehramt Geographie,11,23,1,1
+3,19.7,1,19,1,0,4,0,0.513695226706809,Soziologie (MA),1,23,1,1
+4,19.7,1,19,1,0,4,0,0.136402604400947,BioGeoWissenschaften,1,20,1,1
+5,17.18,1,19,3,0,4,0,0.647549669669313,Soziologie,03,25,1,1
+6,11.7,0,11,1,0,4,0,0.136402604400947,zahnmedizin,3,19,1,1
+7,11.7,0,11,1,0,4,0,0.136402604400947,Biologie,3,22,1,1
+8,17.44,1,19,3,0,5,0,0.448723344010721,"Lehramt Mathematik, Philosophie",1,19,1,1
+9,11.7,0,11,1,0,14,0,0.785398163397448,Maschinenbau,5,23,0,1
+10,19.5,1,19,1,0,4,0,0.654191491000836,Psychologie Master (Kognitive Psychologie/Neurowissenschaften),1,25,1,1
+11,15.7,1,19,5,0,4,0,0.785398163397448,Wirtschaftsingeneurwesen Industrie,1,20,1,1
+12,17.44,1,19,3,0,4,0,0.270094153891918,Rechtswissenschaften,4,21,0,1
+13,11.7,0,11,1,0,4,0,0.136402604400947,Sozial- und Verhaltenswissenschaften/Erziehungswissenschaft,1,20,1,1
+14,12,0,11,1,0,4,0,0.136402604400947,Wirtschaftwissenschaften,1,19,0,1
+15,11,0,11,1,0,5,0,0.654191491000836,Wirtschaftswissenschaften,1,19,1,1
+16,11,0,11,1,0,4,0,0.416064505723823,Medizin,5,22,0,1
+17,11.7,0,11,1,0,4,0,0.136402604400947,Wirtschaftswissenschaften/ BWL,1,23,1,1
+18,11.7,0,11,1,0,4,0,0.633483228995002,Politikwissenschaft,3,20,0,1
+19,11.58,0,11,1,0,7,0,0.136402604400947,IWK,1,22,1,1
+20,10.3,0,11,1,0,13,1,0.101609643842451,Wirtschaftswissenschaften,2,25,1,1
+21,17.7,1,19,3,0,7,0,0.515549007458979,Sozial und Verhaltenswissenschaften/Erziehungswissenschaften,9,24,1,1
+22,10.94,0,11,1,0,4,0,0.136402604400947,Psychologie,3,25,0,1
+23,19.7,1,19,1,1,4,0,0.590306746935372,Psychologie,1,20,1,1
+24,9.5,0,11,3,0,4,0,0.555976943732405,Chemie,1,20,1,1
+25,19.7,1,19,1,0,4,0,0.136402604400947,Ernährungswissenschaften,1,21,1,1
+26,18.94,1,19,1,0,4,0,0.31670009228757,Fak. für Sozial-und Verhaltenswiss./ Erziehungswissenschaft,1,20,1,1
+27,17.7,1,19,3,0,4,0,0.513798571637373,Feinwerktechnik,7,24,0,1
+28,19,1,19,1,1,9,0,0.654191491000836,wirtschaftswissenschaften,1,21,1,1
+33,11.78,0,11,1,0,3,0,0.402724942439084,LAG Latein/Philosophie,5,21,0,2
+34,12,0,11,1,0,3,0,0.512850289771204,Sportwissenschaft (Sozial- und Verhaltenswissenschaften),13,25,0,2
+35,11.7,0,11,1,0,3,0,0.31670009228757,Psychologie,10,26,1,2
+36,7.62,0,11,5,0,3,0,0.490206827246555,Pharmazie,1,21,1,2
+37,9.7,0,11,3,0,4,0,0.608689307327412,wirtschaftswissenschaften,3,20,1,2
+38,11.7,0,11,1,0,3,0,0.634651782277027,Südosteuropastudien/ Wirtschaftswissenschaften,3,26,1,2
+39,15.26,1,19,5,0,3,0,0.654191491000836,Soziologie,1,21,0,2
+40,15.36,1,19,5,0,3,0,0.549738226935052,FSU Jena - Humanmedizin,3,20,1,2
+41,20,1,19,1,0,3,0,0.136402604400947,Geschichte/Philosophie,3,21,1,2
+42,19.7,1,19,1,0,3,0,0.480099506606918,Lehramt Englisch/Sozialkunde,1,22,1,2
+43,15.96,1,19,5,0,3,0,0.513319908983845,Wirtschaftswissenschaften,6,21,1,2
+44,15.18,1,19,5,0,3,0,0.699403872203207,Verhaltens-und Sozialwissenschaften/ Politikwissenschaft,3,20,1,2
+45,9.26,0,11,3,0,3,0,0.654191491000836,Chemie,1,20,1,2
+46,15.62,1,19,5,0,3,0,0.448723344010721,Lehramt,3,19,1,2
+47,18,1,19,3,0,3,0,0.136402604400947,"Lehramt/Germanistik, Geschichte",1,19,1,2
+48,11.52,0,11,1,0,7,0,0.65489413028706,Biologische Pharmazeutische Fakultät/Biochemie,1,18,0,2
+49,9,0,11,3,0,3,1,0.788383229158022,Auslandsgermanistik,1,23,1,2
+50,7.7,0,11,5,0,3,0,0.654191491000836,Geowissenschaften,1,18,1,2
+51,17.38,1,19,3,0,3,0,1.06813506637449,Business Administration,3,23,0,2
+52,11.7,0,11,1,0,3,0,0.136402604400947,Business Administration / BWL,5,26,0,2
+53,15.7,1,19,5,0,3,0,0.785398163397448,Politikwissenschaft,7,24,0,2
+54,9.36,0,11,3,0,3,0,0.36112029000685397,Pharmazie,1,26,1,2
+55,15.16,1,19,5,0,3,0,0.625108534232923,Master General Management,2,30,0,2
+56,19,1,19,1,1,3,0,0.136402604400947,Humanmedizin,3,23,0,2
+57,11.7,0,11,1,0,3,0,0.198167760468595,Verhaltenswissenschaften/ Kommunikationswissenschaft,1,19,1,2
+58,10.92,0,11,1,0,11,0,0.136402604400947,Wirtschaftsing.,4,23,0,2
+59,17.58,1,19,3,0,3,0,0.375270822855957,Medizin,1,19,1,2
+60,11.36,0,11,1,0,3,0,0.348292992148039,Sozial und Verhaltenswissenschaften/Politikwissenschaft,1,21,0,2
+61,19.38,1,19,1,0,3,0,0.283794109208328,Physik,7,23,0,2
+62,15,1,19,5,0,3,0,0.608689307327412,FH Mechatronik,1,34,0,2
+65,10,0,11,3,0,4,0,0.414055950220339,Ernährungswissenschaften,1,20,1,3
+66,20,1,19,1,0,4,0,0.654191491000836,Lehramt Mathematik Regelschule,1,27,0,3
+67,19.7,1,19,1,0,4,0,0.136402604400947,Sozial- und Verhaltenswissenschaft/ Sportwissenschaft M.A.,3.,24,0,3
+68,9.7,0,11,3,0,5,0,0.239038138948469,Kommunikationswiss.,5,21,1,3
+69,15.36,1,19,5,0,4,0,0.644347132280099,Philosophische Fakultät / Germanistik,5,21,1,3
+70,11.5,0,11,1,0,3,0,0.561264791039019,Physik,3,24,0,3
+71,9.7,0,11,3,0,4,0,0.608689307327412,fsu lehramt,6,22,1,3
+72,20,1,19,1,0,4,1,0.173535577538174,Kommunikationswissenschaft,1,19,1,3
+73,10,0,11,3,1,4,0,0.659907235980692,Kommunikationswissenschaft,1,22,1,3
+74,11.5,0,11,1,1,4,0,0.654191491000836,sozialwissenschaftliche Fakultät/Soziologie,1,20,1,3
+75,18,1,19,3,0,4,0,0.283794109208328,Sportwissenschaft,5,21,0,3
+76,11.7,0,11,1,1,4,0,0.136402604400947,Rewi,1,19,0,3
+77,9.7,0,11,3,0,51,1,0.785398163397448,Wirtscharftsingeniuerwesen Informationsrtechnik,3,21,1,3
+78,19.36,1,19,1,0,4,0,0.343569940912447,Philosophie,3,23,0,3
+79,19.5,1,19,1,0,8,0,0.654191491000836,Lehramt Gymnasium,1,19,1,3
+80,15.7,1,19,5,1,20,0,0.608689307327412,Auslandsgermanistik,2,26,1,3
+81,9,0,11,3,0,4,0,0.282809211299603,Lehramt Gymnasium Chemie,9,23,1,3
+82,11,0,11,1,0,4,1,0.136402604400947,Wirtschaftsmathematik,1,21,0,3
+83,9.7,0,11,3,0,8,0,0.223827971470516,Wirtschaftsingeniuerwesen,6,24,0,3
+84,19.7,1,19,1,0,4,0,0.270094153891918,BWL,1,21,1,3
+85,17.16,1,19,3,0,4,0,0.429610580068726,Sozial- und Verhaltenswissenschaften /Kommunikationswissenschaft,1,19,1,3
+86,17.5,1,19,3,0,4,0,0.497660951193404,Rechtswissenschaften,1,18,1,3
+87,19.7,1,19,1,0,4,0,-0.136402604400947,Mathematik,1,22,0,3
+88,11,0,11,1,0,4,0,0.136402604400947,Boilogisch-pharmazeutisches Istitut/ Ernährungswissenschaften,1,24,1,3
+89,11,0,11,1,0,10,0,0.136402604400947,Betriebswirtschaft,10,24,1,3
+90,19.5,1,19,1,1,11,0,0.720015301318606,sozialwissenschaftliche\ Psychologie,7,22,1,3
+91,11,0,11,1,0,4,0,0.136402604400947,Biologisch Pharmazeutisch,3,22,0,3
+92,17.7,1,19,3,0,4,0,0.46901428377495,Medizintechnik,1,19,1,3
+93,17.7,1,19,3,0,4,0,0.414055950220339,Informatik,10,27,0,3
+94,19.16,1,19,1,0,4,0,0.654191491000836,ReWi Ius,1,20,0,3
+95,11.5,0,11,1,0,22,0,0.785398163397448,Biologie (Genetik),13,28,1,3
+96,9.7,0,11,3,0,4,0,0.371972837168799,Uni Jena / Kommunikationswissenschaft,1,19,1,3
+97,11.62,0,11,1,0,3,0,0.374468714628756,Deutsch als Fremdsprache/Phonetik,1,23,1,4
+98,7.12,0,11,5,0,3,0,0.785398163397448,Geschichte,3,21,0,4
+99,15.7,1,19,5,0,3,0,0.654191491000836,Medizin,1,20,1,4
+100,18,1,19,3,0,20,0,0.136402604400947,"Lehramt Wirtschaft/Recht, Deutsch",5,21,0,4
+101,11.7,0,11,1,0,11,0,1.07144960511477,Maschinenbau,5,25,0,4
+102,16,1,19,5,0,3,0,0.282179905606312,Philosophische/ Romanistik,1,19,1,4
+103,12,0,11,1,0,22,0,0.49934672168013,Wirtschaftsingeneurwesen,3,22,0,4
+104,20,1,19,1,0,7,0,0.136402604400947,Philosophische Fakultät / Volkskunde,03,21,0,4
+105,10,0,11,3,0,3,0,0.270094153891918,Politikwissenschaft,1,19,1,4
+106,10,0,11,3,0,5,0,0.380506377112365,Geowissenschaften,3,22,0,4
+107,9,0,11,3,0,3,0,1.05456565618315,BWL,7,20,1,4
+108,20,1,19,1,0,8,0,0.209141300007748,Kommunikationswissernschaft,1,26,1,4
+109,20,1,19,1,1,3,0,0.136402604400947,Lehramt Jener Modell Geschichte/Religion Gymnasium,7,21,1,4
+110,11.7,0,11,1,0,8,0,0.486031929340096,Rechtswissenschaft,8,23,1,4
+111,10,0,11,3,0,13,0,0.308593418923887,Lehramt Regelschule,1,20,1,4
+112,11.74,0,11,1,0,3,0,0.608689307327412,Erziehungswissenschaft,5,24,1,4
+113,15.88,1,19,5,0,3,0,0.583508251786107,Biologisch-Pharmazeutische Fakultät/Ernährungswissenschaften,1,19,1,4
+114,11.7,0,11,1,0,3,0,0.654191491000836,Politikwissenschaft/Kommunikationswissenschaft,3,22,0,4
+115,15,1,19,5,0,3,0,0.58433064942671,Wirtschaftsingenieurwesen,1,21,1,4
+116,15.7,1,19,5,0,3,0,0.670857466600767,Politikwissenschaft,1,20,1,4
+117,11,0,11,1,0,3,0,0.654191491000836,Lehramt (Gymnasium) Geschichte/Informatik,1,22,0,4
+118,11,0,11,1,0,5,0,0.60554466360497,Lehramt Gymnasium Deutsch/Französisch,3,22,0,4
+119,11,0,11,1,0,3,0,0.491254006024917,Fh Jena / BWL,3,22,1,4
+120,19,1,19,1,0,13,0,0.923404187054968,Lehramt Gymnasium Englisch/Geographie,1,29,0,4
+121,15,1,19,5,0,3,0,0.608689307327412,Biologisch-Pharmazeutische Fakultät/Ernährungswissenschaften,1,18,1,4
+122,12,0,11,1,1,3,0,0.641616096888334,Ernährungswissenschaften,1,24,1,4
+123,19,1,19,1,0,4,0,0.227689319768656,Universität Jena / Kommunikationswissenschaften,3,21,1,4
+124,15,1,19,5,0,3,0,0.450415867077218,Universität Jena/Deutsch als Fremdsprache,3,20,1,4
+125,15.7,1,19,5,0,3,0,0.608689307327412,Biologisch-Pharmazeutische Fakultät / Molecular Life Science,1,22,1,4
+126,19,1,19,1,0,8,0,0.136402604400947,Kommunikationsiwssenschaft,1,19,1,4
+129,19.7,1,19,1,0,5,0,0.201317108374641,Philosophie / Deutsch als Fremdsprache,2,25,1,5
+130,9.86,0,11,3,0,4,0,0.0838735642364676,Soziologie,1,20,1,5
+131,11.7,0,11,1,0,4,0,0.201317108374641,Sportwissenschaft,3,20,1,5
+132,11.78,0,11,1,0,3,0,0.455100808568195,Humanmedizin,1,24,0,5
+133,17.7,1,19,3,0,6,0,0.36112029000685397,Politikwissenschaft,1,21,0,5
+134,10,0,11,3,0,3,0,0.654191491000836,Sportwissenschaft,1,20,1,5
+135,11,0,11,1,0,3,0,1.05456565618315,BioGeowissenschaften,1,25,0,5
+136,19.7,1,19,1,0,3,0,0.461819457472555,Fachhochschule Jena / Betriebswirtschaft,1,22,0,5
+137,15.7,1,19,5,0,3,0,0.608689307327412,Philosophische Fakultät / Romanistik (Französisch),5,22,1,5
+138,19.26,1,19,1,0,3,0,0.654191491000836,Wirtschaftsmathematik,1,20,0,5
+139,17.96,1,19,3,0,3,0,0.35299038782691,Psychologie,1,22,1,5
+140,18,1,19,3,0,3,0,0.299987025725849,Bioinformatik,1,20,1,5
+141,11.38,0,11,1,1,6,0,0.819867264396956,Chemie,3,21,0,5
+142,15.7,1,19,5,0,3,0,0.86931279033664,Chemisch-Geowissenschaftliche Fakultät,3,22,0,5
+143,9.26,0,11,3,0,5,0,0.654191491000836,Sportwissenschaft,1,22,0,5
+144,19.7,1,19,1,0,3,0,0.247905484037805,LG (JM) Biologie,3,21,1,5
+145,14.66,1,19,5,0,3,0,0.136402604400947,Fakultät für Sozial- und Verhaltenswissenschaften/ Sozialpädagogik,1,21,1,5
+146,19.7,1,19,1,0,3,0,0.299117934911638,Wirtschaftsmathematik,3,20,1,5
+147,11.52,0,11,1,1,11,0,0.223476601140633,Lehramt,1,20,1,5
+148,15.7,1,19,5,0,3,0,0.654191491000836,FSU Jena (Philosophische Fakultät/Germanistik),3,21,1,5
+149,9,0,11,3,0,3,0,0.254184386960143,Business Administration,5,23,1,5
+150,12,0,11,1,1,7,0,0.136402604400947,Politikwissenschaft,3,22,0,5
+151,11.7,0,11,1,1,3,0,0.203744680883857,Philosophische F. / Slawistik,3,20,1,5
+152,19.7,1,19,1,1,5,0,0.136402604400947,GENERAL Management (Master),2,29,1,5
+153,11.36,0,11,1,0,3,1,1.05456565618315,Wirtschaftswissenschaft,3,23,0,5
+154,11.08,0,11,1,0,3,0,1.07144960511477,wirtschaftswissenschaften,5,22,0,5
+155,9,0,11,3,0,3,0,0.674095364521115,Philosophische Fakultät/ Germanistik,1,20,1,5
+156,9.62,0,11,3,0,3,0,0.53172406725880506,Philosophische Fakultät/ Anglistik/ Amerikanistik,1,20,1,5
+157,19.7,1,19,1,0,3,0,0.380506377112365,Altertumswissenschaften,7,23,1,5
+158,17.36,1,19,3,0,3,0,0.414055950220339,ev. Theologie,14,26,1,5
+161,17.7,1,19,3,0,3,0,0.148691967014183,Anglistik,1,21,1,6
+162,11.26,0,11,1,0,3,0,0.577598354700776,FSU,1,24,1,6
+163,9.7,0,11,3,0,3,1,0.445301043887686,Biogeowissenschaften,1,23,0,6
+164,9.18,0,11,3,0,3,0,0.919535916888119,Wirtschaftswissenschaften,3,19,1,6
+165,11.18,0,11,1,1,3,0,0.713626230461629,Geschichte,1,21,1,6
+166,9.5,0,11,3,0,3,0,0.608689307327412,"Fakultät für Wirtschaftswissenschaften, Studium Economics Master",1,28,0,6
+167,17.82,1,19,3,0,3,0,0.515549007458979,Nordamerikastudien,10,27,0,6
+168,15.88,1,19,5,0,3,0,0.918561815593186,Biotechnologie,5,21,1,6
+169,19.44,1,19,1,1,3,0,0.500030015048337,-,-,22,0,6
+170,19.92,1,19,1,1,3,0,0.173535577538174,Physik,0,19,0,6
+171,12,0,11,1,1,30,0,0.136402604400947,Chemisch-Geowissenschaftlich / Geowissenschaften,5,20,1,6
+172,9.7,0,11,3,0,6,1,0.515549007458979,Physik,1,19,0,6
+173,11.74,0,11,1,0,3,0,0.484677013247015,Ernährungswissenschaften,1,23,1,6
+174,11.7,0,11,1,0,4,0,0.602532624521019,Sozialwissenschaft,5,22,1,6
+175,19.7,1,19,1,1,3,0,0.283794109208328,Biologie,3,21,1,6
+176,11.7,0,11,1,1,3,0,0.136402604400947,Biochemie,1,21,1,6
+177,17.36,1,19,3,0,3,0,0.654191491000836,Jurisprudenz,1,18,0,6
+178,19.7,1,19,1,0,19,0,0.136402604400947,Fakultät für Sozialwissenschaften/Kommunikationswissenschaften,1,19,1,6
+179,19.92,1,19,1,1,3,0,0.209973512862163,Interkulturelle Personalentwicklung,1,26,1,6
+180,11.58,0,11,1,1,3,0,0.375270822855957,Chemie,1,23,1,6
+181,11.5,0,11,1,1,3,0,0.136402604400947,Volkskunde/Erziehungswissenschaft,3,20,1,6
+182,17.44,1,19,3,1,10,0,0.0906598872007452,BWL,3,20,1,6
+183,16.74,1,19,3,0,3,0,0.654191491000836,Soziologie,5,22,1,6
+184,16.94,1,19,3,0,4,0,0.574304830174702,Biologie,3,23,0,6
+185,19.18,1,19,1,0,3,0,0.654191491000836,Biologie,3,24,1,6
+186,11,0,11,1,1,11,0,0.136402604400947,Physik,1,20,0,6
+187,19.7,1,19,1,0,3,0,0.645861450594059,Soziologie,3,23,0,6
+188,9.62,0,11,3,0,8,0,0.49116359828626,Maschinenbau,3,20,0,6
+189,19,1,19,1,0,3,0,0.136402604400947,Physik,01,17,1,6
+190,7.7,0,11,5,0,4,2,0.324717904737717,Medizintechnik,1,21,0,6
+193,7.7,0,11,5,0,9,0,0.785398163397448,Wirtschaftsingenieurswesen,1,21,0,7
+194,11.62,0,11,1,0,3,0,0.14635633385322,Zahmedizin,5,21,0,7
+195,19.7,1,19,1,1,3,0,-0.136402604400947,Wirtschaftliche Fakultät /Wirtschatfswissenschaften,6,22,1,7
+196,20,1,19,1,0,6,0,0.136402604400947,Pharmazie,1,19,1,7
+197,17.36,1,19,3,0,3,0,0.608689307327412,Biogeowissenschaften FSU Jena,6,19,1,7
+198,12,0,11,1,0,3,0,0.136402604400947,Master BWL,1,23,1,7
+199,15.52,1,19,5,0,3,0,0.403174558436699,Soziologie,3,22,0,7
+200,9.7,0,11,3,0,11,0,0.654191491000836,Medizin,1,20,1,7
+201,15.7,1,19,5,0,3,0,0.509592264808926,Philosophische Fakultät/ Germanistik,1,19,1,7
+202,11.7,0,11,1,0,3,0,0.654191491000836,Wirtschaftswissenschaften,1,23,1,7
+203,17.26,1,19,3,0,3,0,0.873011137418918,wirtschaftswissenschaft,1,20,1,7
+204,17.26,1,19,3,0,3,0,0.654191491000836,Wirtschaftspädagigik,1,27,1,7
+205,7.5,0,11,5,0,3,0,0.608689307327412,Wirtschaftswissenschaften/Wirtschaftspädagogik,1,22,1,7
+206,19.88,1,19,1,1,3,0,0.265543833971881,Soziologie,5,28,0,7
+207,11.7,0,11,1,0,3,1,0.136402604400947,Biochmie,1,21,1,7
+208,11.7,0,11,1,0,3,0,0.136402604400947,Wirtschaftswissenschaften,1,21,0,7
+209,9.74,0,11,3,1,9,0,0.46901428377495,Politikwissenschaft,3,21,1,7
+210,10.3,0,11,1,1,3,0,0.364871016933143,FSU-Jena Geowissenschaften/Chemie-Chemie,1,22,0,7
+211,11,0,11,1,0,3,1,0.136402604400947,Betriebswirtschaftslehre,1,20,1,7
+212,9.16,0,11,3,0,5,0,1.05889646252827,BWL,1,26,0,7
+213,15,1,19,5,0,3,0,0.608689307327412,-,-,26,0,7
+214,14.72,1,19,5,0,5,0,0.515925513465285,Ernährungswissenschaften,3,20,1,7
+215,11.7,0,11,1,0,3,0,0.85650315804985,Zahnmedizin,5,22,0,7
+216,19.7,1,19,1,0,3,0,0.39004807226345,Anglistik/Amerikanistik,1,20,1,7
+217,15.7,1,19,5,0,3,1,0.608689307327412,Medizin,1,21,0,7
+218,19.76,1,19,1,0,3,0,0.630401421473507,Wirtschaftswissenschaften,1,19,0,7
+219,7.36,0,11,5,0,3,0,0.549738226935052,Medizin,5,28,1,7
+220,15.5,1,19,5,0,11,0,0.654191491000836,Chemie,1,19,0,7
+221,9.12,0,11,3,0,5,0,0.60554466360497,Physikalische Technik,1,23,0,7
+222,18.3,1,19,1,0,3,1,0.609326385177089,Wirtschaftswissenschaften,1,19,1,7
+225,12,0,11,1,0,3,0,0.198167760468595,politikwissenschaften und erziehungswissenschaften,5,22,1,8
+226,19.7,1,19,1,0,3,0,0.314038625024124,"Verhalten, Erziehungswissenschaften",1,20,1,8
+227,19.7,1,19,1,0,3,1,-0.136402604400947,Gestaltung,7,25,0,8
+228,11.7,0,11,1,1,7,0,0.181255531821597,Medizin,9,23,1,8
+229,11.7,0,11,1,0,3,0,0.46901428377495,Sozial- und Verhaltenswissenschaften / Kommunikationswissenschaf,1,19,1,8
+230,19.52,1,19,1,0,3,0,0.304847092984357,"Fachhochschule Jena, Elektrotechnik/Automatisierungstechnik",1,22,0,8
+231,19.7,1,19,1,0,3,0,0.136402604400947,Kommunikationswissenschaften (KF) + Psychologie (EF),1,19,1,8
+232,16,1,19,5,0,3,0,0.608689307327412,Sportwissenschaft,6,24,0,8
+233,18,1,19,3,0,3,0,0.647392139739929,Anglistik / Amerikanistik,3,22,0,8
+234,11.7,0,11,1,0,3,0,0.513695226706809,Sozialwissenschaftliche Fakultät/ Soziologie,1,22,0,8
+235,20,1,19,1,0,3,0,-0.136402604400947,Germanistik/Psychologie,1,19,1,8
+236,20,1,19,1,1,3,1,0.55165498252854706,Kommunikationswissenschaft,1,20,1,8
+237,17.7,1,19,3,0,3,0,0.440305545745623,Psychologie,7,22,1,8
+238,8,0,11,5,0,3,0,0.654191491000836,Wirtschaftsmathematik,1,20,0,8
+239,11.76,0,11,1,0,3,0,0.384331913155797,Soziologie,3,20,1,8
+240,11,0,11,1,0,3,0,0.270094153891918,FSU Jena / Deutsch als Fremdsprache,3,24,1,8
+241,16.3,1,19,3,0,3,0,0.136402604400947,Sozialwissenschaften/ Poltikwissenschaft,3,21,1,8
+242,18.3,1,19,1,0,3,0,0.538325993210412,Wirtschaftsmathe,1,20,0,8
+243,11.7,0,11,1,0,3,1,0.654191491000836,kommunikation,6,23,1,8
+244,11.7,0,11,1,0,3,0,0.300262079920771,Geologie,12,33,0,8
+245,16.72,1,19,3,0,3,0,0.654191491000836,Rechtswissenschaft (Volljurist),10,25,1,8
+246,17.7,1,19,3,0,10,1,0.193959147259893,WiWi,3,29,1,8
+247,19,1,19,1,0,3,4,0.712969874154356,BWL (Studium ist aber schon längst vorbei ;) ),8,33,0,8
+248,11,0,11,1,1,3,0,0.654191491000836,Erziehungswissenschaft,3,21,1,8
+249,11.7,0,11,1,0,3,0,0.136402604400947,Biotechnologie,1,20,1,8
+250,11,0,11,1,1,3,0,0.608689307327412,Sozial- und Verhaltenswissenschaften / Sportwissenschaft,5,23,0,8
+251,11,0,11,1,0,3,1,0.654191491000836,BWL,7,22,0,8
+252,11.7,0,11,1,0,10,0,0.654191491000836,Biologisch-Pharmazeutische Fakultät / Ernährungswissenschaften,1,19,1,8
+253,17,1,19,3,0,3,1,0.136402604400947,FSU/Medizin,9,29,1,8
+254,11.26,0,11,1,0,10,2,0.476467419473707,Wirtschaftsingenieurwesen,2,20,0,8
