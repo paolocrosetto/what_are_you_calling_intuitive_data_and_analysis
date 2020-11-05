@@ -24,10 +24,8 @@ theme_set(theme_ipsum_rc()+
 ## getting raw data
 df<-read_csv('Data/proposers.csv')
 
-
 ## data cleaning
 source("proposer_data_cleaning.R")
-         
          
 ## Distribution of offers: figure 1 and relative tests
 source("proposer_offers.R")
