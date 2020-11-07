@@ -28,7 +28,7 @@ df <- df %>%
 
 # assign subjects to types
 df <- df %>% 
-  mutate(subject_type2 = case_when(subject_ID==2 | subject_ID==12 | subject_ID==13 | subject_ID==20 ~ "Opportunistic",
+  mutate(subject_type = case_when(subject_ID==2 | subject_ID==12 | subject_ID==13 | subject_ID==20 ~ "Opportunistic",
                                   subject_ID==1 | subject_ID==11 | subject_ID==15 ~ "Residual",
                                   subject_ID==8 | subject_ID==9 | subject_ID==21 | subject_ID==22 ~ "Fairness minded",
                                   TRUE ~ "Monotonic"))
