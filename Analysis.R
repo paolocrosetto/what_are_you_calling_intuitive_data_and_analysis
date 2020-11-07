@@ -47,3 +47,6 @@ df <- read_csv("Data/respondents.csv")
 
 ## data cleaning
 source("respondent_data_cleaning.R")
+
+## Distribution of reactions: Table and Figure 3
+source("respondent_reactions.R")
