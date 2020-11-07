@@ -5,7 +5,7 @@ df %>%
   tally() %>% 
   mutate(N = sum(n),
          share = 100*n/N) %>% 
-  filter(belief == "reject") %>% 
+  filter(belief == "accept") %>% 
   select(pie, offer, share) -> prop_expec_shares
 
 prop_expec_shares

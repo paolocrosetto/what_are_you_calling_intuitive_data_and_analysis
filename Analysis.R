@@ -31,7 +31,7 @@ source("proposer_data_cleaning.R")
 source("proposer_offers.R")
 
 ## Expectations of rejections by proposers
-source("proposer_estimated_rejections.R")
+source("proposer_estimated_acceptances.R")
 
 ## SVO
 source("proposer_SVO.R")
