@@ -30,6 +30,9 @@ source("proposer_data_cleaning.R")
 ## Distribution of offers: figure 1 and relative tests
 source("proposer_offers.R")
 
+## Expectations of rejections by proposers
+source("proposer_estimated_rejections.R")
+
 ## SVO
 source("proposer_SVO.R")
 
@@ -39,3 +42,8 @@ source("proposer_SVO.R")
 ## data come from an fMRI experiment ran in Jena, Germany
 ## 
   
+## getting the raw data
+df <- read_csv("Data/respondents.csv")
+
+## data cleaning
+source("respondent_data_cleaning.R")
