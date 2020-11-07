@@ -27,13 +27,13 @@ df<-read_csv('Data/proposers.csv')
 ## data cleaning
 source("proposer_data_cleaning.R")
          
-## Distribution of offers: figure 1 and relative tests
+## Distribution of offers: Figure 1 and relative tests
 source("proposer_offers.R")
 
 ## Expectations of rejections by proposers
 source("proposer_estimated_acceptances.R")
 
-## SVO
+## SVO: Figure 2 and relative tests
 source("proposer_SVO.R")
 
 
@@ -54,5 +54,7 @@ source("respondent_reactions.R")
 ## Individual strategies: Figure 4
 source("respondent_individual_strategies.R")
 
-## strategy by type: Figure 5
+## Strategy by type: Figure 5
 source("respondent_types.R")
+
+## 
