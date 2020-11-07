@@ -50,3 +50,9 @@ source("respondent_data_cleaning.R")
 
 ## Distribution of reactions: Table and Figure 3
 source("respondent_reactions.R")
+
+## Individual strategies: Figure 4
+source("respondent_individual_strategies.R")
+
+## strategy by type: Figure 5
+source("respondent_types.R")
