@@ -14,7 +14,8 @@ table3 <- table3 %>%
   bind_cols(prop_expec_shares[3]) %>% 
   rename(expecAccept = share)
 
-table3
+table3 %>% 
+  write_csv("Tables/Table_in_figure_3.csv")
 
 
 ## Figure 3
