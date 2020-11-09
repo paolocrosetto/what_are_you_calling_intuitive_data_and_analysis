@@ -14,7 +14,8 @@ df %>%
   geom_abline(slope = 1, linetype = "dashed")+
   scale_fill_manual(name = "", values = c("grey99", "grey33","grey1", "grey66"))+
   labs(x = "Probability of accepting a 1-euro offer from a pie of 11",
-       y = "Probability of accepting a 1-euro offer from a pie of 19")
+       y = "Probability of accepting a 1-euro offer from a pie of 19")+
+  theme(panel.grid.minor = element_blank())
 
 # save the figure
 ggsave("Figures/Figure_6.png", width = 8, height = 5, units = "in")
