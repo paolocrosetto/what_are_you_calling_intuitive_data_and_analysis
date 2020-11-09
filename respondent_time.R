@@ -5,7 +5,7 @@ df <- df %>%
   mutate(reaction = as.factor(reaction),
          reaction = fct_relevel(reaction, "Reject", "Accept"))
 
-a## first part: all observations
+## first part: all observations
 
 # table
 T1_all <- df %>% 
@@ -89,8 +89,6 @@ Table1 %>% write_csv("Tables/Table_1.csv")
 
 # Table 2 -- response time by behavioral type
 
-
-
 # overall
 T2_overall <- df %>%
   group_by(subject_type)%>%
@@ -101,7 +99,7 @@ T2_test <- df %>%
   group_by(subject_type) %>% 
   mutate(accept = reaction == "Accept") %>% 
   do(tidy(wilcox.test(.$reaction_time~.$accept, paired=F))) %>% 
-  select(subject_type, p.value) -> tests
+  select(subject_type, p.value)
 
 # mean and sd + merge
 Table2 <- df %>%
@@ -117,3 +115,6 @@ Table2 <- df %>%
 
 # save table
 Table2 %>% write_csv("Tables/Table_2.csv")
+
+# cleaning
+rm(T1_all, T1_all_test, T1_offer, T1_offer_test, T1_pie, T1_pie_test, T2_overall, T2_test, Table1, Table2)

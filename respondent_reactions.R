@@ -39,3 +39,6 @@ df %>%
 
 # saving the plot
 ggsave("Figures/Figure_3.png", width = 8, height = 5, units = "in")
+
+# cleaning
+rm(prop_expec_shares, table3)
