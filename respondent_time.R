@@ -84,11 +84,36 @@ Table1 <- bind_rows(T1_all, T1_pie, T1_offer) %>%
   mutate(across(time:p.value, round, 2))
 
 ## exporting to csv
-Table1 %>% write_csv("Tables/Table1.csv")
+Table1 %>% write_csv("Tables/Table_1.csv")
 
-library(xtable)
-
-Table1 %>% xtable()
 
 # Table 2 -- response time by behavioral type
 
+
+
+# overall
+T2_overall <- df %>%
+  group_by(subject_type)%>%
+  summarise(time = mean(reaction_time))
+
+# tests
+T2_test <- df %>%
+  group_by(subject_type) %>% 
+  mutate(accept = reaction == "Accept") %>% 
+  do(tidy(wilcox.test(.$reaction_time~.$accept, paired=F))) %>% 
+  select(subject_type, p.value) -> tests
+
+# mean and sd + merge
+Table2 <- df %>%
+  group_by(subject_type, reaction)%>%
+  filter(reaction != "Error") %>% 
+  summarise(time = mean(reaction_time), sd = sd(reaction_time)) %>% 
+  mutate(indicator = paste(round(time,2), " (", round(sd,2), ')', sep = "")) %>% 
+  select(-time, -sd) %>% 
+  spread(reaction, indicator) %>% 
+  left_join(T2_overall, by = "subject_type") %>% 
+  select(subject_type, overall = time, acceptances = Accept, rejections = Reject) %>% 
+  left_join(T2_test, by = "subject_type") 
+
+# save table
+Table2 %>% write_csv("Tables/Table_2.csv")
