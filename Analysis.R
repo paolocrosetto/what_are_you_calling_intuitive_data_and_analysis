@@ -54,10 +54,10 @@ source("respondent_reactions.R")
 ## Individual strategies: Figure 4
 source("respondent_individual_strategies.R")
 
-## Strategy by type: Figure 5
+## Strategy by type: Figure 5 
 source("respondent_types.R")
 
-## Transition from small to large pies by type: Figure 6
+## Transition from small to large pies by type: Figure 6 and relative tests
 source("respondent_transition_small_large.R")
 
 ## Reaction times: Table 1 & Table 2

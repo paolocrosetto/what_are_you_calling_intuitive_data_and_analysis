@@ -19,3 +19,29 @@ df %>%
 
 # save the figure
 ggsave("Figures/Figure_6.png", width = 8, height = 5, units = "in")
+
+
+
+
+## test of acceptance rate change from small to large pie
+
+# overall
+df %>% 
+  # compute % of acceptances by subject
+  filter(offer == 1) %>%
+  group_by(subject_ID,pie_size, subject_type) %>%
+  summarise(prob_accept = mean(reaction == "Accept")) %>% 
+  ungroup() %>% 
+  do(tidy(wilcox.test(prob_accept~pie_size, data =.)))
+
+
+# by type
+df %>% 
+  # compute % of acceptances by subject
+  filter(offer == 1) %>%
+  group_by(subject_ID,pie_size, subject_type) %>%
+  summarise(prob_accept = mean(reaction == "Accept")) %>% 
+  # test if acceptance rate is different 
+  group_by(subject_type) %>% 
+  group_modify(~tidy(wilcox.test(prob_accept~pie_size, data= .)))
+
