@@ -21,8 +21,6 @@ df %>%
 ggsave("Figures/Figure_6.png", width = 8, height = 5, units = "in")
 
 
-
-
 ## test of acceptance rate change from small to large pie
 
 # overall
@@ -36,6 +34,7 @@ df %>%
 
 
 # by type
+
 df %>% 
   # compute % of acceptances by subject
   filter(offer == 1) %>%
