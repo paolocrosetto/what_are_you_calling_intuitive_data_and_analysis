@@ -16,7 +16,8 @@ reaction_time <- df %>%
 
 # merging
 reaction_and_acceptance <- reaction_time %>% 
-  left_join(acceptance_ratio, by = c("subject_ID", "pie_size", "offer"))
+  left_join(acceptance_ratio, by = c("subject_ID", "pie_size", "offer")) %>% 
+  mutate(reaction = fct_relevel(reaction, "Accept"))
 
 # plot
 reaction_and_acceptance %>% 
