@@ -102,19 +102,47 @@ T2_test <- df %>%
   select(subject_type, p.value)
 
 # mean and sd + merge
-Table2 <- df %>%
+
+Table2 <-  df %>%
   group_by(subject_type, reaction)%>%
   filter(reaction != "Error") %>% 
-  summarise(time = mean(reaction_time), sd = sd(reaction_time)) %>% 
-  mutate(indicator = paste(round(time,2), " (", round(sd,2), ')', sep = "")) %>% 
-  select(-time, -sd) %>% 
+  summarise(time = mean(reaction_time), sd = sd(reaction_time), N = n()) %>% 
+  unite(indicator, N, time, sd, sep = "_") %>% 
   spread(reaction, indicator) %>% 
+  separate(Accept, into = c("a.N", "a.mean", "a.sd"), sep = "_") %>% 
+  separate(Reject, into = c("r.N", "r.mean", "r.sd"), sep = "_")%>% 
   left_join(T2_overall, by = "subject_type") %>% 
-  select(subject_type, overall = time, acceptances = Accept, rejections = Reject) %>% 
+  select(subject_type, overall = time, everything()) %>% 
   left_join(T2_test, by = "subject_type") 
 
 # save table
 Table2 %>% write_csv("Tables/Table_2.csv")
 
+
 # cleaning
 rm(T1_all, T1_all_test, T1_offer, T1_offer_test, T1_pie, T1_pie_test, T2_overall, T2_test, Table1, Table2)
+
+
+## additional tests: opportunistic take less than all other types
+
+# number of acceptances and rejections by type
+df %>% 
+  group_by(reaction, subject_type) %>% 
+  tally() %>% 
+  spread(reaction, n)
+
+# opportunistic vs. monotonic
+wilcox.test(df$reaction_time[df$reaction == "Accept" & df$subject_type == "Opportunistic"],
+            df$reaction_time[df$reaction == "Accept" & df$subject_type == "Monotonic"]) %>% 
+  tidy()
+
+# opportunistic vs. fairness minded
+wilcox.test(df$reaction_time[df$reaction == "Accept" & df$subject_type == "Opportunistic"],
+            df$reaction_time[df$reaction == "Accept" & df$subject_type == "Fairness minded"]) %>% 
+  tidy()
+
+# opportunistic vs. residual
+wilcox.test(df$reaction_time[df$reaction == "Accept" & df$subject_type == "Opportunistic"],
+            df$reaction_time[df$reaction == "Accept" & df$subject_type == "Residual"]) %>% 
+  tidy()
+  
