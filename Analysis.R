@@ -25,16 +25,16 @@ theme_set(theme_ipsum_rc()+
 df<-read_csv('Data/proposers.csv')
 
 ## data cleaning
-source("proposer_data_cleaning.R")
+source("Subfiles/proposer_data_cleaning.R")
          
 ## Distribution of offers: Figure 1 and relative tests
-source("proposer_offers.R")
+source("Subfiles/proposer_offers.R")
 
 ## Expectations of rejections by proposers
-source("proposer_estimated_acceptances.R")
+source("Subfiles/proposer_estimated_acceptances.R")
 
 ## SVO: Figure 2 and relative tests
-source("proposer_SVO.R")
+source("Subfiles/proposer_SVO.R")
 
 
 #####################
@@ -46,22 +46,22 @@ source("proposer_SVO.R")
 df <- read_csv("Data/respondents.csv")
 
 ## data cleaning
-source("respondent_data_cleaning.R")
+source("Subfiles/respondent_data_cleaning.R")
 
 ## Distribution of reactions: Table and Figure 3
-source("respondent_reactions.R")
+source("Subfiles/respondent_reactions.R")
 
 ## Individual strategies: Figure 4
-source("respondent_individual_strategies.R")
+source("Subfiles/respondent_individual_strategies.R")
 
 ## Strategy by type: Figure 5 
-source("respondent_types.R")
+source("Subfiles/respondent_types.R")
 
 ## Transition from small to large pies by type: Figure 6 and relative tests
-source("respondent_transition_small_large.R")
+source("Subfiles/respondent_transition_small_large.R")
 
 ## Reaction times: Table 1, Table 2 and relative tests
-source("respondent_time.R")
+source("Subfiles/respondent_time.R")
 
 ## Share of acceptances and reaction time: Figure 7 and regression analysis Table 3
-source("respondent_self_prime.R")
+source("Subfiles/respondent_self_prime.R")
