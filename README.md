@@ -18,10 +18,12 @@ The whole analysis is contained in the file Analysis.R. This file calls all othe
 
 #### Data
 
-The paper analyses data from an experiment ran in 2011 over two different laboratories:
+The paper analyses data from an *impunity game* experiment ran in 2011 over two different laboratories:
 
 -   the Max Planck Experimental Economics Laboratory in Jena, where *proposer* participants decided how to split a pie of 11 or 19 € with a *respondent*. [Proposer data](Data/proposers.csv)
 
--   the fMRI scanner of the Klinikum der Universität Jena, where *respondents* faced all offers by proposers and decided either to *accept* the split or to *reject* it, in which case they burned their own money to send a message to the proposer.
+-   the fMRI scanner of the Klinikum der Universität Jena, where *respondents* faced all offers by proposers and decided either to *accept* the split or to *reject* it, in which case they burned their own money to send a message to the proposer. [Data/respondents.csv](Data/respondents.csv)
 
 Proposers were then notified by email of the reaction of the respondent, that had no monetary consequences for them.
+
+#### 
