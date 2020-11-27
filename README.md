@@ -26,4 +26,26 @@ The paper analyses data from an *impunity game* experiment ran in 2011 over two 
 
 Proposers were then notified by email of the reaction of the respondent, that had no monetary consequences for them.
 
-#### 
+#### Results in a nutshell
+
+##### Proposers
+
+Proposers are mostly opportunists, choosing the minimal offer and hence maximising their share of the pie. Still, a sizable share of proposers offers non-minimal shares. A large minority of proposer know that their low offer is likely to be rejected, but they choose the lowest amount nonetheless.
+
+![](Figures/Figure_1.png)
+
+Proposals are correlated with the proposer's SVO -- Social Value Orientation, as measured by using the Murphy et al. 2011 short 6-item questionnaire.
+
+![](Figures/Figure_2.png)
+
+##### Respondents
+
+Respondents mostly accept offers, but minimal, 1€ offers are rejected nearly half of the time. The aggregate behavior is driven by large individual heterogeneity. We can identify three types of respondents: opportunistic respondents, always accepting no matter the offer and the original pie size; fairness-minded subjects, always rejecting small offers; and monotonic subjects, whereby the likelihood of rejecting depends on the size of the original pie to be shared. Three subjects could not be cateogrized and fall into a residual category.
+
+![](Figures/Figure_5.png)
+
+##### Response time
+
+Rejections take longer than acceptances. This is at odds with most literature, as the 'emotional'/'intuitive' reply here is to reject, while the rational/opportunistic reply is to accept. Crucially, response times are driven by heterogeneity, too. Opportunistic types take less time to accept than to reject, while fairness minded types take less time to reject. In general, across all subjects, the most likely reaction takes *less* time than the least favored one. Subjects likely choose a course of actions and it is taxing to deviate from it. 
+
+![](Figures/Figure_7.png)
