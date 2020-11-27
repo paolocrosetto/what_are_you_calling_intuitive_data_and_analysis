@@ -10,7 +10,7 @@ The whole analysis is contained in the file Analysis.R. This file calls all othe
 
 #### Preprint
 
-You can find the full preprint of the paper here: [Working Paper Version](/Paper/Crosetto - Gueth -- Response Time Impunity Game - Working Paper Version.pdf)
+You can find the full preprint of the paper here: [Working Paper Version](Paper/Crosetto-Gueth-WP.pdf)
 
 #### Abstract
 
