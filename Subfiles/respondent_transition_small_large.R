@@ -34,13 +34,13 @@ df %>%
   ungroup() %>% 
   do(tidy(wilcox.test(prob_accept~pie_size, data =.)))
 
-# overall: fisher exact test
+# overall: fisher exact test, for each offer
 df %>% 
-  # focus on 1€ offers
-  filter(offer == 1 & reaction != "Error") %$% 
+  filter(reaction != "Error") %>% 
+  group_by(offer) %>% 
   # fisher test
-  table(reaction, pie_size) %>% 
-  fisher.test()
+  group_modify(~tidy(fisher.test(table(.$reaction, .$pie_size)))) %>% 
+  mutate(p.value = round(p.value, 3))
   
 
 # by type
