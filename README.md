@@ -8,6 +8,10 @@ The whole analysis is contained in the file Analysis.R. This file calls all othe
 
 ## The Paper
 
+#### Preprint
+
+You can find the full preprint of the paper here: [Working Paper Version](/Paper/Crosetto - Gueth -- Response Time Impunity Game - Working Paper Version.pdf)
+
 #### Abstract
 
 *We study choices and reaction times of respondents in an impunity game with unfair offers. The non-private impunity game features two roles, proposer and respondent, who are both aware whether the pie size is small or large. Proposers decide among three more or less unfair offers; respondents can accept or reject the offer, which in the latter case is lost for both. Whatever the responder decides is communicated to the proposer.*
@@ -46,6 +50,6 @@ Respondents mostly accept offers, but minimal, 1€ offers are rejected nearly h
 
 ##### Response time
 
-Rejections take longer than acceptances. This is at odds with most literature, as the 'emotional'/'intuitive' reply here is to reject, while the rational/opportunistic reply is to accept. Crucially, response times are driven by heterogeneity, too. Opportunistic types take less time to accept than to reject, while fairness minded types take less time to reject. In general, across all subjects, the most likely reaction takes *less* time than the least favored one. Subjects likely choose a course of actions and it is taxing to deviate from it. 
+Rejections take longer than acceptances. This is at odds with most literature, as the 'emotional'/'intuitive' reply here is to reject, while the rational/opportunistic reply is to accept. Crucially, response times are driven by heterogeneity, too. Opportunistic types take less time to accept than to reject, while fairness minded types take less time to reject. In general, across all subjects, the most likely reaction takes *less* time than the least favored one. Subjects likely choose a course of actions and it is taxing to deviate from it.
 
 ![](Figures/Figure_7.png)
