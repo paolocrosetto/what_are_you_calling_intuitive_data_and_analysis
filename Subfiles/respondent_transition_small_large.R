@@ -23,24 +23,33 @@ ggsave("Figures/Figure_6.png", width = 8, height = 5, units = "in")
 
 ## test of acceptance rate change from small to large pie
 
-# overall
+# overall: WRST
 df %>% 
+  # focus on 1€ offers
+  filter(offer == 1 & reaction != "Error") %>%
   # compute % of acceptances by subject
-  filter(offer == 1) %>%
   group_by(subject_ID,pie_size, subject_type) %>%
   summarise(prob_accept = mean(reaction == "Accept")) %>% 
+  # test if acceptance rate is different across pie size
   ungroup() %>% 
   do(tidy(wilcox.test(prob_accept~pie_size, data =.)))
 
+# overall: fisher exact test
+df %>% 
+  # focus on 1€ offers
+  filter(offer == 1 & reaction != "Error") %$% 
+  # fisher test
+  table(reaction, pie_size) %>% 
+  fisher.test()
+  
 
 # by type
-
 df %>% 
-  # compute % of acceptances by subject
   filter(offer == 1) %>%
+  # compute % of acceptances by subject
   group_by(subject_ID,pie_size, subject_type) %>%
   summarise(prob_accept = mean(reaction == "Accept")) %>% 
-  # test if acceptance rate is different 
+  # test if acceptance rate is different across pie size by type
   group_by(subject_type) %>% 
   group_modify(~tidy(wilcox.test(prob_accept~pie_size, data= .)))
 
