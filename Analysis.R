@@ -27,14 +27,18 @@ df<-read_csv('Data/proposers.csv')
 ## data cleaning
 source("Subfiles/proposer_data_cleaning.R")
          
-## Distribution of offers: Figure 1 and relative tests
+## Distribution of offers: Table and tests
 source("Subfiles/proposer_offers.R")
 
-## Expectations of rejections by proposers
-source("Subfiles/proposer_estimated_acceptances.R")
-
-## SVO: Figure 2 and relative tests
-source("Subfiles/proposer_SVO.R")
+# 
+# ## Distribution of offers: Figure 1 and relative tests
+# source("Subfiles/proposer_offers_old.R")
+# 
+# ## Expectations of rejections by proposers
+# source("Subfiles/proposer_estimated_acceptances.R")
+# 
+# ## SVO: Figure 2 and relative tests
+# source("Subfiles/proposer_SVO.R")
 
 
 #####################
