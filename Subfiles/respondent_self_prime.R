@@ -73,7 +73,7 @@ phtest(random_effect_est_11, fixed_effect_est_11)
 
 # clustered standard errors
 
-ref_11_cluster <- coeftest(random_effect_est_11, vcov=vcovHC(ref,type="HC0",cluster="group"))
+ref_11_cluster <- coeftest(random_effect_est_11, vcov=vcovHC(random_effect_est_11,type="HC0",cluster="group"))
 
 
 # pie size of 19
@@ -87,7 +87,7 @@ fixed_effect_est_19 <- plm(reaction_time ~ prob_accept*reaction, data = regdf %>
 phtest(random_effect_est_19, fixed_effect_est_19)
 
 # clustered standard errors
-ref_19_cluster <- coeftest(random_effect_est_19, vcov=vcovHC(ref,type="HC0",cluster="group"))
+ref_19_cluster <- coeftest(random_effect_est_19, vcov=vcovHC(random_effect_est_19,type="HC0",cluster="group"))
 
 
 # output to latex -- tweaked manually for the paper but all is here
