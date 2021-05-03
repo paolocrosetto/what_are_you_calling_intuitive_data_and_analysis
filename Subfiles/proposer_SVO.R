@@ -1,4 +1,5 @@
 # Figure
+library(ggbeeswarm)      # jitter with structure
 
 #the role of SVO: angle
 ggplot(df, aes(x=fct_rev(offer),y=SVO))+
