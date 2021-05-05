@@ -2,7 +2,7 @@
 ## (note: last column computed in the prop_expec_shares object)
 
 # table using respondent data only
-table3 <- table(df$pie_size,df$offer,df$reaction) %>% 
+table_fig_1 <- table(df$pie_size,df$offer,df$reaction) %>% 
   ftable() %>% 
   as_tibble() %>% 
   pivot_wider(names_from = Var3, values_from = Freq) %>% 
@@ -10,15 +10,15 @@ table3 <- table(df$pie_size,df$offer,df$reaction) %>%
   mutate(percAccept = 100*Accept/(Accept + Reject))
 
 # adding proposer expectations
-table3 <- table3 %>% 
+table_fig_1 <- table_fig_1 %>% 
   bind_cols(prop_expec_shares[3]) %>% 
   rename(expecAccept = share)
 
-table3 %>% 
-  write_csv("Tables/Table_in_figure_3.csv")
+table_fig_1 %>% 
+  write_csv("Tables/Table_in_figure_1.csv")
 
 
-## Figure 3
+## Figure 1
 df %>% 
   # cosmetic changes to variables
   mutate(pie_size = as.factor(pie_size)) %>% 
@@ -38,7 +38,7 @@ df %>%
         panel.grid.major.y = element_blank())
 
 # saving the plot
-ggsave("Figures/Figure_3.png", width = 8, height = 5, units = "in")
+ggsave("Figures/Figure_1.png", width = 8, height = 5, units = "in")
 
 # cleaning
-rm(prop_expec_shares, table3)
+rm(prop_expec_shares, table_fig_1)

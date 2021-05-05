@@ -27,7 +27,7 @@ df<-read_csv('Data/proposers.csv')
 ## data cleaning
 source("Subfiles/proposer_data_cleaning.R")
          
-## Distribution of offers: Table and tests
+## Distribution of offers: Table 1 and relative tests
 source("Subfiles/proposer_offers.R")
 
 #################
@@ -55,27 +55,27 @@ df <- read_csv("Data/respondents.csv")
 ## data cleaning
 source("Subfiles/respondent_data_cleaning.R")
 
-## Distribution of reactions: Table and Figure 3
+## Distribution of reactions: Table and Figure 1
 source("Subfiles/respondent_reactions.R")
 
-## Individual strategies: Figure 4
+## Individual strategies: Figure 2
 source("Subfiles/respondent_individual_strategies.R")
 
-## Strategy by type: Figure 5 
+## Strategy by type: Figure 3 
 source("Subfiles/respondent_types.R")
 
-## Transition from small to large pies by type: Figure 6 and relative tests
-source("Subfiles/respondent_transition_small_large.R")
-
-## Reaction times: Table 1, Table 2 and relative tests
+## Reaction times: Table 2, Table 3 and relative tests
 source("Subfiles/respondent_time.R")
 
-## Share of acceptances and reaction time: Figure 7 and regression analysis Table 3
+## Share of acceptances and reaction time: regression analysis and Figure 4
 source("Subfiles/respondent_self_prime.R")
 
 #################
 # Extra results that are not discussed in the paper
 #################
 #
-# visual representation of the regression result via a simple plot of averages
+## Visual representation of the regression result via a simple plot of averages
 # source("Subfiles/respondent_visual_plot_self_prime.R")
+
+## Transition from small to large pies by type
+#source("Subfiles/respondent_transition_small_large.R")

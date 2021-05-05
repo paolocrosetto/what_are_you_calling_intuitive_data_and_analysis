@@ -1,14 +1,14 @@
-### Table 1  -- response time 
+### Table 2  -- response time 
 
 # changing order of response factor for better reporting
-df <- df %>% 
+df2 <- df %>% 
   mutate(reaction = as.factor(reaction),
          reaction = fct_relevel(reaction, "Reject", "Accept"))
 
 ## first part: all observations
 
 # table
-T1_all <- df %>% 
+T1_all <- df2 %>% 
   group_by(reaction) %>% 
   summarise(time = mean(reaction_time), 
             sd = sd(reaction_time),
@@ -17,7 +17,7 @@ T1_all <- df %>%
   select(pie_size, offer, everything())
 
 # test
-T1_all_test <- df %>% 
+T1_all_test <- df2 %>% 
   filter(reaction != "Error") %>% 
   mutate(accept = reaction == "Accept") %>% 
   ungroup() %>% 
@@ -31,7 +31,7 @@ T1_all <- T1_all %>% bind_cols(T1_all_test)
 ## second part: by pie size
 
 # table
-T1_pie <- df %>% 
+T1_pie <- df2 %>% 
   group_by(reaction, pie_size) %>% 
   summarise(time = mean(reaction_time), 
             sd = sd(reaction_time),
@@ -41,7 +41,7 @@ T1_pie <- df %>%
   arrange(pie_size)
 
 # test
-T1_pie_test <- df %>% 
+T1_pie_test <- df2 %>% 
   filter(reaction != "Error") %>% 
   mutate(accept = reaction == "Accept") %>% 
   group_by(pie_size) %>% 
@@ -56,7 +56,7 @@ T1_pie <- T1_pie %>% left_join(T1_pie_test, by = "pie_size")
 
 ## third part: by pie size and offer
 
-T1_offer <- df %>% 
+T1_offer <- df2 %>% 
   group_by(reaction, pie_size, offer) %>% 
   summarise(time = mean(reaction_time), 
             sd = sd(reaction_time),
@@ -66,7 +66,7 @@ T1_offer <- df %>%
   arrange(pie_size, offer)
 
 # test
-T1_offer_test <- df %>% 
+T1_offer_test <- df2 %>% 
   filter(reaction != "Error") %>% 
   mutate(accept = reaction == "Accept") %>% 
   group_by(pie_size, offer) %>% 
@@ -84,18 +84,18 @@ Table1 <- bind_rows(T1_all, T1_pie, T1_offer) %>%
   mutate(across(time:p.value, round, 2))
 
 ## exporting to csv
-Table1 %>% write_csv("Tables/Table_1.csv")
+Table1 %>% write_csv("Tables/Table_2.csv")
 
 
-# Table 2 -- response time by behavioral type
+# Table 3 -- response time by behavioral type
 
 # overall
-T2_overall <- df %>%
+T2_overall <- df2 %>%
   group_by(subject_type)%>%
   summarise(time = mean(reaction_time))
 
 # tests
-T2_test <- df %>%
+T2_test <- df2 %>%
   group_by(subject_type) %>% 
   mutate(accept = reaction == "Accept") %>% 
   do(tidy(wilcox.test(.$reaction_time~.$accept, paired=F))) %>% 
@@ -103,7 +103,7 @@ T2_test <- df %>%
 
 # mean and sd + merge
 
-Table2 <-  df %>%
+Table2 <-  df2 %>%
   group_by(subject_type, reaction)%>%
   filter(reaction != "Error") %>% 
   summarise(time = mean(reaction_time), sd = sd(reaction_time), N = n()) %>% 
@@ -116,11 +116,11 @@ Table2 <-  df %>%
   left_join(T2_test, by = "subject_type") 
 
 # save table
-Table2 %>% write_csv("Tables/Table_2.csv")
+Table2 %>% write_csv("Tables/Table_3.csv")
 
 
 # cleaning
-rm(T1_all, T1_all_test, T1_offer, T1_offer_test, T1_pie, T1_pie_test, T2_overall, T2_test, Table1, Table2)
+rm(T1_all, T1_all_test, T1_offer, T1_offer_test, T1_pie, T1_pie_test, T2_overall, T2_test, Table1, Table2, df2)
 
 
 ## additional tests: opportunistic take less than all other types

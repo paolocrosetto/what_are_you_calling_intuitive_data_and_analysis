@@ -1,4 +1,4 @@
-## Figure 5
+## Figure 3
 
 df %>%
   # counting subjects by type
@@ -23,4 +23,4 @@ df %>%
   guides(fill = guide_legend(reverse = TRUE))
 
 #saving the plot
-ggsave("Figures/Figure_5.png", width = 8.5, height = 5, units = "in")
+ggsave("Figures/Figure_3.png", width = 8.5, height = 5, units = "in")

@@ -1,10 +1,15 @@
 # Table 
 library(kableExtra)
 
-df %>% 
+Table1 <- df %>% 
   group_by(pie, offer, .drop = F) %>% 
   summarise(count = n()) %>% 
-  spread(offer, count) %>% 
+  spread(offer, count) 
+
+Table1 %>% 
+  write_csv("Tables/Table_1.csv")
+
+Table1 %>% 
   kbl(booktabs = T, 
       format = "latex", 
       caption = "Distribution of offers faced by respondents", 

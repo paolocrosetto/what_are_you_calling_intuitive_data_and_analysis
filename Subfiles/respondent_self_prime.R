@@ -50,5 +50,5 @@ bind_rows(reg11, reg19) %>%
        y = "Parameter estimate")+
   theme(panel.grid.minor = element_blank(), legend.position = "none")
 
-ggsave("Figures/regressions.png", width = 8, height = 6, units = "in", dpi = 600)
+ggsave("Figures/Figure_4.png", width = 8, height = 6, units = "in", dpi = 600)
 
