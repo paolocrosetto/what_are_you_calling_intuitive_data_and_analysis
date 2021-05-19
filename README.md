@@ -10,7 +10,11 @@ The whole analysis is contained in the file Analysis.R. This file calls all othe
 
 #### Preprint
 
-You can find the full preprint of the paper here: [Working Paper Version](Paper/Crosetto-Gueth-WP.pdf)
+There are two version of the paper.
+
+-   A first preprint, that also appeared as a Grenoble GAEL Working Paper, features analyses of both the proposers and respondents. It gives a complete account of all our data and you can find it here: [Working Paper Version](Paper/Crosetto-Gueth-Working-paper-version.pdf)
+
+-   A second, revised version has been shortened to 3500 words, focus exclusively on respondent behavior and response time, and features panel regressions and robustness checks. You can find it here: [Revised version](Paper/Crosetto-Gueth-Revised-shortened-version.pdf)
 
 #### Abstract
 
@@ -26,7 +30,7 @@ The paper analyses data from an *impunity game* experiment ran in 2011 over two 
 
 -   the Max Planck Experimental Economics Laboratory in Jena, where *proposer* participants decided how to split a pie of 11 or 19 € with a *respondent*. [Proposer data](Data/proposers.csv)
 
--   the fMRI scanner of the Klinikum der Universität Jena, where *respondents* faced all offers by proposers and decided either to *accept* the split or to *reject* it, in which case they burned their own money to send a message to the proposer. [Data/respondents.csv](Data/respondents.csv)
+-   the fMRI scanner of the Klinikum der Universität Jena, where *respondents* faced all offers by proposers and decided either to *accept* the split or to *reject* it, in which case they burned their own money to send a message to the proposer. [Respondent data](Data/respondents.csv)
 
 Proposers were then notified by email of the reaction of the respondent, that had no monetary consequences for them.
 
