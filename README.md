@@ -18,11 +18,11 @@ There are two version of the paper.
 
 #### Abstract
 
-*We study choices and reaction times of respondents in an impunity game with unfair offers. The non-private impunity game features two roles, proposer and respondent, who are both aware whether the pie size is small or large. Proposers decide among three more or less unfair offers; respondents can accept or reject the offer, which in the latter case is lost for both. Whatever the responder decides is communicated to the proposer.*
+*Studies on the intuitive or deliberate nature of human actions often use time constraints for identification, assuming that constrained individuals fall back to intuitive behavior. This identification strategy disregards individual heterogeneity and self-priming, i.e. the behavioral rule that subjects can form during the instructions phase, and then apply irrespective of the time constraint.*
 
-*240 proposers took part in a traditional laboratory; 24 respondents were in an fMRI setup where they confronted all 240 proposals elicited from proposers. Responses were sent via email to proposers.*
+*We use respondent data from an impunity game as an example of how subject heterogeneity can drive results. 24 respondents face 240 more or less unfair allocation proposals out of a small or large pie and can accept or reject the offer. Upon rejection respondents burn their own money, but not the proposer's. Respondents decisions are communicated to the proposer.*
 
-*Proposers revealed little concern for respondents. Respondents overwhelmingly rejected small offers, especially from a large pie. In contrast with most of the literature and the Social Heuristic Hypothesis, we find that on average rejections took longer than acceptances. This result is driven by individual heterogeneity. The rich response data allow us to distinguish different respondent types, finding a remarkable consistency: subjects mainly accepting (rejecting) take more time to reject (accept). We attribute this finding to heterogeneity in self-priming. Our results suggest a primary role for individual heterogeneity in experiments testing the intuitive or deliberate status of how they resolve conflict between opportunism and what seems socially right.*
+*On average, emotional rejections take longer than deliberate acceptances. Including individual heterogeneity, though, we find that subjects who mostly accept (reject) take more time to reject (accept). Faster decisions are the ones conforming with the modal early reaction. We attribute this finding to heterogeneity in self-priming. Since self-priming is orthogonal to time constraints, it has the capacity to invalidate their use in the identification of dual decision modes.*
 
 #### Data
 
@@ -42,18 +42,16 @@ Proposers are mostly opportunists, choosing the minimal offer and hence maximisi
 
 ![](Figures/Figure_1.png)
 
-Proposals are correlated with the proposer's SVO -- Social Value Orientation, as measured by using the Murphy et al. 2011 short 6-item questionnaire.
-
-![](Figures/Figure_2.png)
-
 ##### Respondents
 
 Respondents mostly accept offers, but minimal, 1€ offers are rejected nearly half of the time. The aggregate behavior is driven by large individual heterogeneity. We can identify three types of respondents: opportunistic respondents, always accepting no matter the offer and the original pie size; fairness-minded subjects, always rejecting small offers; and monotonic subjects, whereby the likelihood of rejecting depends on the size of the original pie to be shared. Three subjects could not be cateogrized and fall into a residual category.
 
-![](Figures/Figure_5.png)
+![](Figures/Figure_3.png)
 
 ##### Response time
 
 Rejections take longer than acceptances. This is at odds with most literature, as the 'emotional'/'intuitive' reply here is to reject, while the rational/opportunistic reply is to accept. Crucially, response times are driven by heterogeneity, too. Opportunistic types take less time to accept than to reject, while fairness minded types take less time to reject. In general, across all subjects, the most likely reaction takes *less* time than the least favored one. Subjects likely choose a course of actions and it is taxing to deviate from it.
 
-![](Figures/Figure_7.png)
+We show this via a series of fixed effects panel regressions, where we estimate the impact of the *n* initial responses on response time by type of response on the remainder of the data, varying *n* from 1 (the very first reply) to 20 (the mean acceptance rate over the first 20 responses). Result show that the very first responses determine the overall response pattern and the reaction times -- the *self-primed* response that is modal in the first *n* responses is later on taken faster than the opposite response. The result is already apparent looking at the first 5 responses.
+
+![](Figures/Figure_4.png)
